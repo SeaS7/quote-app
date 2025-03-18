@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">Inspiring Quotes</div>
+    <div class="subheading">"A new quote, a new perspective."</div>
+
+    <button class="nav-button" id="prevBtn">
+        <i class="fas fa-arrow-left"></i>
+    </button>
+
+    <div class="quote-container" id="quote-container">
+        <img class="quote-img" id="quote-img" src="https://images.unsplash.com/photo-1493612276216-ee3925520721?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Random Background">
+        <div class="quote" id="quote">Loading...</div>
+        <div class="author" id="author"></div>
+        <div class="loader" id="loader"></div>
+
+        <div class="buttons">
+            <button class="new-quote" id="newQuoteBtn">
+                <i class="fas fa-add"></i>
+            </button>
+            <button class="copy" id="copyBtn">
+                <i class="fas fa-copy"></i>
+            </button>
+            <button class="save" id="saveBtn">
+                <i class="fas fa-download"></i>
+            </button>
+            <button class="twitter" id="twitterBtn">
+                <i class="fab fa-twitter"></i>
+            </button>
+        </div>
+    </div>
+
+    <button class="nav-button" id="nextBtn">
+        <i class="fas fa-arrow-right"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
