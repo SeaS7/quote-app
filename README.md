@@ -1,7 +1,9 @@
 # 🌟 Inspiring Quotes App
 
 A simple web app that delivers **random inspiring quotes** with beautiful backgrounds. Copy, save, or share your favorites!
+
 🔗 **Live Demo:** [Quote App](https://quote-app-wheat.vercel.app/) 
+![image](https://github.com/user-attachments/assets/f61b4c4b-2601-4c99-98b9-9c78d21d2a4a)
 
 ## 🚀 Features
 
